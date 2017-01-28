@@ -1,14 +1,14 @@
 nav:
   Home: /
   About: /about/
-  Writing: /archives/
-  Projects: http://github.com/probberechts
+#  Writing: /archives/
+#  Projects: http://github.com/probberechts
 
 projects_url: http://github.com/probberechts
 
 customize:
     gravatar:
-        email: 
+        email: shirin.nikita@gmail.com
     logo:
         enabled: true
         width: 50
@@ -27,7 +27,7 @@ customize:
         url: /images/apple-touch-icon.png
         gravator: false
     social_links:
-        github: http://github.com/probberechts/cactus-dark
+        github: http://github.com/darksmile/doctor-who
         twitter: /
         facebook: /
         linkedin: /
