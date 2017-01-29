@@ -22,14 +22,17 @@
   #logo
     display: inline-block
     float: left
-    margin-right: 20px
+
+    margin-top: logo-margin-top
+    margin-right: logo-margin-right
+    margin-bottom: logo-margin-bottom
+    margin-left: logo-margin-left
+
     width: logo-width
     height: logo-height
     background-repeat: no-repeat
     background-size: logo-width logo-height
     border-radius: 5px
-    -webkit-filter: grayscale(100%)
-    filter: grayscale(100%)
 
   #nav
     letter-spacing: 0.01em
@@ -44,7 +47,7 @@
       line-height: 15px
       a
         margin-right: 15px
-        color: color-accent
+        color: $color-accent
       a:hover
           underline(5px, $color-accent)
       li
@@ -59,11 +62,6 @@
         margin-right: 0
         a
           margin-right: 0
-
-#header:hover
-  #logo
-    -webkit-filter: none
-    filter: none
 
 @media screen and (max-width:480px)
   #header #title

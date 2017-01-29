@@ -1,8 +1,8 @@
 nav:
   Home: /
   About: /about/
-#  Writing: /archives/
-#  Projects: http://github.com/darksmile
+  Writing: /archives/
+  Projects: http://github.com/darksmile
 
 projects_url: http://github.com/darksmile
 
@@ -12,8 +12,12 @@ customize:
     logo:
         enabled: true
         width: 50
-        height: 50
-        url: /images/logo.png
+        height: 60
+        url: /images/tardis-50x60.png
+        position_top: -8px
+        position_right: 15px
+        position_bottom: 0
+        position_left: 0
         gravatar: false
     favicon:
       # eg. generate with http://realfavicongenerator.net/
