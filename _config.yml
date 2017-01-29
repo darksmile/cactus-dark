@@ -1,10 +1,9 @@
 nav:
   Home: /
   About: /about/
-  Writing: /archives/
-  Projects: http://github.com/darksmile
+  Projects: https://github.com/darksmile
 
-projects_url: http://github.com/darksmile
+projects_url: https://github.com/darksmile
 
 customize:
     gravatar:
@@ -13,7 +12,7 @@ customize:
         enabled: true
         width: 50
         height: 60
-        url: /images/tardis-50x60.png
+        url: /images/logo.png
         position_top: -8px
         position_right: 15px
         position_bottom: 0
@@ -31,11 +30,11 @@ customize:
         url: /images/apple-touch-icon.png
         gravator: false
     social_links:
-        github: http://github.com/darksmile/doctor-who
-        twitter: /
-        facebook: /
-        linkedin: /
-    post_count: 5
+        github: https://github.com/darksmile/
+        twitter: https://twitter.com/_darksmile
+        facebook: https://www.facebook.com/mykyta.shirin
+        linkedin: linkedin.com/in/mshyrin
+    post_count: 500
     highlight: rainbow
 
 # RSS
